@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a href=""></a>
     <link rel="stylesheet" href="/style/pages.css">
     <title>Página de Filmes</title>
 </head>
-
 <body>
     <header>
         <a href="./index.html" id="logo"><img src="./img/logov&v.png" alt="logo-vibe-verse"></a>
@@ -28,19 +26,17 @@
         <h1>Filmes</h1>
 <section class="content">
     <div class="movie">
-        <img src="img/milagre.jpg" alt="Filme 1">
+        <img src="img/milagre.jpg" alt="Milagre na Cela 7">
         <div class="movie-info">
             <h2>Milagre na Cela 7</h2>
             <p>Durante o golpe de estado na Turquia em 1980, Memo, um pastor com deficiência mental, é acusado injustamente do assassinato da filha de um comandante militar...</p>
+            <p>Ano: 2019</p>
+            <p>Duração: 2h 12min</p>
+            <h3>Avaliação</h3>
             <div class="rating">
+                 <!-- Fim da seção de avaliação de quem assistiu -->
                 <input type="radio" id="star5" name="rating1" value="5">
                 <label for="star5">&#9733;</label>
-                <!-- Adicione uma seção para a avaliação de quem assistiu -->
-                <div class="user-review">
-                    <img src="caminho/para/a/foto.jpg" alt="Foto do usuário">
-                    <p>Depoimento do usuário sobre o filme.</p>
-                </div>
-                <!-- Fim da seção de avaliação de quem assistiu -->
                 <input type="radio" id="star4" name="rating1" value="4">
                 <label for="star4">&#9733;</label>
                 <input type="radio" id="star3" name="rating1" value="3">
@@ -54,25 +50,59 @@
     </div>
 </section>
 
-        <section class="content">
-            <div>
-                <h2> O Grande Debate</h2>
+<section class="content">
+        <div class="movie">
+            <img src="img/grandedebate.jpg" alt="O Grande Debate">
+            <div class="movie-info">
+                <h2>O Grande Debate</h2>
                 <p>O Grande Debate" narra como o professor Melvin Tolson forma uma equipe de debates para desafiar o
-                    racismo
-                    nos EUA, defendendo que o valor de uma pessoa está no caráter, não na cor da pele.</p>
+                racismo nos EUA, defendendo que o valor de uma pessoa está no caráter, não na cor da pele.</p>
+                <p>Ano: 2007</p>
+                <p>Duração: 2h 06min</p>
+                <h3>Avaliação</h3>
+                <div class="rating">
+                    <!-- Fim da seção de avaliação de quem assistiu -->
+                   <input type="radio" id="star5" name="rating1" value="5">
+                   <label for="star5">&#9733;</label>
+                   <input type="radio" id="star4" name="rating1" value="4">
+                   <label for="star4">&#9733;</label>
+                   <input type="radio" id="star3" name="rating1" value="3">
+                   <label for="star3">&#9733;</label>
+                   <input type="radio" id="star2" name="rating1" value="2">
+                   <label for="star2">&#9733;</label>
+                   <input type="radio" id="star1" name="rating1" value="1">
+                   <label for="star1">&#9733;</label>
+               </div>
             </div>
-            <img src="img/grandedebate.jpg" alt="Filme 2">
-        </section>
-        <section class="content">
-            <img src="img/prisao77.jpg" alt="Filme 3">
-            <div>
-                <h2>Prisao 77</h2>
-                <p>O filme, baseado em fatos reais em Barcelona, segue Manuel, um contador preso por desvio de dinheiro.
-                    Descontente, lidera um movimento na prisão pela liberdade, desafiando o sistema carcerário e
-                    impactando
-                    a sociedade.</p>
-            </div>
-        </section>
+        </div>
+</section>
+
+<section class="content">
+        <div class="movie"></div>
+             <img src="img/prisao77.jpg" alt="Prisao 77">
+            <div class="movie-info">
+                  <h2>Prisao 77</h2>
+                  <p>O filme, baseado em fatos reais em Barcelona, segue Manuel, um contador preso por desvio de dinheiro. Descontente, lidera um movimento na prisão pela liberdade, desafiando o sistema carcerário e impactando a sociedade.</p>
+                  <p>Ano: 2022</p>
+                  <p>Duração: 2h 05min</p>
+                  <h3>Avaliação</h3>
+                  <div class="rating">
+                <!-- Fim da seção de avaliação de quem assistiu -->
+                   <input type="radio" id="star5" name="rating1" value="5">
+                   <label for="star5">&#9733;</label>
+                   <input type="radio" id="star4" name="rating1" value="4">
+                   <label for="star4">&#9733;</label>
+                   <input type="radio" id="star3" name="rating1" value="3">
+                   <label for="star3">&#9733;</label>
+                   <input type="radio" id="star2" name="rating1" value="2">
+                   <label for="star2">&#9733;</label>
+                   <input type="radio" id="star1" name="rating1" value="1">
+                   <label for="star1">&#9733;</label>    
+               </div>
+           </div>
+     </div>
+
+</section>
     </main>
     <aside>
         <div>
@@ -83,7 +113,7 @@
                 <div>
                     <input type="text" id="nome" name="nome" placeholder="Nome">
                     <input type="email" id="email" name="email" required placeholder="E-mail">
-                    <input type="phone" id="telefone" name="telefone" placeholder="Telefone">
+                    <input type="tel" id="telefone" name="telefone" placeholder="Telefone">
                 </div>
 
                 <div>
@@ -117,7 +147,5 @@
             </p>
         </section>
     </footer>
-
 </body>
-
 </html>
